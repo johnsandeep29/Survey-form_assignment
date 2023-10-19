@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #008CBA; /* Blue background color */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.title {
+    font-size: 24px;
+    color: #fff; /* White text color */
+    margin-bottom: 20px;
+}
+
+.white-form {
+    background-color: #fff; /* White form background */
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    margin: 20px;
+    display: grid;
+    gap: 10px;
+    max-height: 450px; /* Adjust the maximum height as per your preference */
+    overflow-y: auto; /* Add vertical scrollbar if content exceeds the height */
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0; /* Added margin to separate form groups */
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.radio-group {
+    display: flex;
+    margin-top: 5px; /* Added margin to separate radio buttons */
+}
+
+.radio-group input {
+    margin-right: 5px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
